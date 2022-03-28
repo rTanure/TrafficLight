@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>	Semaphore</title>
+	<link rel="stylesheet" type="text/css" href="semaforo.css">
+</head>
+<body>
+	<div class="content">
+		<div class="semaphore">
+			<div class="redTrafficLight">
+				
+			</div><!-- redTrafficLight -->
+			<div class="yellowTrafficLight">
+				
+			</div><!-- yellowTrafficLight -->
+			<div class="greenTrafficLight">
+				
+			</div><!-- greenTrafficLight -->
+		</div><!-- semaphore -->
+		<div class="setupMenu">
+			<div class="selectColor">
+				<div class="colorMenu">
+					<div class="selectColorRed">
+						<input type="button" class="redButton" onclick="redButtonClick()">
+						<div class="colorTextDiv"><h2 class="colorTextRed">RED</h2></div>
+					</div><!-- selectColorRed -->
+					<div class="selectColorYellow">
+						<input type="button" class="yellowButton" onclick="yellowButtonClick()">
+						<div class="colorTextDiv"><h2 class="colorTextYellow">YELLOW</h2></div>
+					</div><!-- selectColorYellow -->
+					<div class="selectColorGreen">
+						<input type="button" class="greenButton" onclick="greenButtonClick()">
+						<div class="colorTextDiv"><h2 class="colorTextGreen">GREEN</h2></div>
+					</div><!-- selectColorGreen -->
+				</div>
+				<div class="automaticMenu">
+					<h2>AUTO</h2>
+					<input type="button" onclick="autoButtonClick()" class="autoButton">
+				</div><!-- automaticMenu -->
+			</div><!-- selectColor -->
+			<div class="automaticModeSetting">
+				<h2>CONFIG</h2>
+				<div class="configureTime">
+					<h2>Set time</h2>
+					<div class="configureInputs">
+						<div class="divInputTimeRed">
+							<input type="number" class="inputTimeRed" placeholder="3">
+							<p>Red</p>
+						</div>
+						<div class="divInputTimeYellow">
+							<input type="number" class="inputTimeYellow" placeholder="1">
+							<p>Yellow</p>
+						</div>
+						<div class="divInputTimeGreen">
+							<input type="number" class="inputTimeGreen" placeholder="5">
+							<P>Green</P>
+						</div>
+					</div><!-- configureInputs -->
+				</div><!-- configureTime -->
+			</div><!-- automaticModeSetting -->
+		</div><!-- setupMenu -->
+	</div><!-- ontent -->
+	<script type="text/javascript" src="semaforo.js"></script>
+</body>
+</html>

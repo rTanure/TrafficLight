@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Roboto';
+}
+
+body {
+	background-color: gray;
+}
+
+.backToHomePage {
+	position:fixed;
+	z-index:999;
+	left:0%;
+	right: 0%;
+	top: 15px;
+	left: 15px;
+	overflow:hidden;
+	color: gray;
+	background: white;
+	font-size: 20px;
+	padding: 10px;
+	width: 80px;
+	border-radius: 15px;
+	text-align: center;
+	cursor: pointer;
+	display: fixed;
+}
+
+.backToHomePage a {
+	text-decoration: none;
+}
+
+.backToHomePage:hover {
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+	color: #03f2d1;
+}
+
+input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+} 
+
+input {
+	border: 2px solid black;
+}
+
+input:hover {
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+::-webkit-input-placeholder {
+   color: #484848;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #484848;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #484848;  
+}
+
+:-ms-input-placeholder {  
+   color: #484848;  
+}
+
+.content {
+	width: 800px;
+	padding: 50px;
+	background-color: white;
+	margin: 100px auto;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+	position: relative;
+}
+
+.semaphore {
+	background-color: #3c3c3c;
+	width: 250px;
+	height: 500px;
+	border-radius: 50px;
+	border: 10px solid #1f1f1f;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.redTrafficLight,
+.yellowTrafficLight,
+.greenTrafficLight {
+	height: 140px;
+	width: 140px;
+	border-radius: 70px;
+	margin: auto;
+	margin-top: 15px;
+	border: 5px solid #1f1f1f;
+}
+
+.redTrafficLight {
+	background-color: #5a0000;
+}
+
+.yellowTrafficLight{
+	background-color: #464600;
+}
+
+.greenTrafficLight {
+	background-color: #003e00;
+}
+
+.setupMenu {
+	height: 500px;
+	width: 400px;
+	top: 0px;
+	right: 0px;
+	margin: 50px;
+	position: absolute;
+}
+
+.selectColor {
+	background-color: #d2d2d2;
+	border-radius: 10px;
+	padding: 20px;
+	padding-top: 6px;
+	border: 3px solid #5a5a5a;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.selectColor div{
+	margin: 10px 0px;
+}
+
+.selectColor input, .selectColor div.colorTextDiv {
+	display: inline-block;
+}
+
+.selectColor input {
+	height: 25px;
+	width: 70px;
+	vertical-align: bottom;
+	border-radius: 10px;
+}
+
+.selectColor div.colorTextDiv{
+	margin-left: 5px;
+	height: 10px;
+}
+
+.redButton {
+	background-color: #5a0000;
+}
+
+.yellowButton {
+	background-color: #464600;
+}
+
+.greenButton {
+	background-color: #003e00;
+}
+
+.colorMenu, .automaticMenu{
+	display: inline-grid;
+}
+
+.automaticMenu{
+	width: 180px;
+	text-align: center;
+}
+
+.automaticMenu input {
+	margin: auto;
+	margin-top: 10px;
+	background-color: #de7d7d;
+	width: 150px;
+	height: 100px;
+}
+
+.automaticModeSetting {
+	text-align: center;
+	margin-top: 25px;
+	background-color: #d2d2d2;
+	width: 400px;
+	height: 252px;
+	border: 3px solid #5a5a5a;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.automaticModeSetting h2{
+	border-bottom: 3px solid #5a5a5a;
+}
+
+.configureTime {
+	border: 3px solid #5a5a5a;
+	height: 150px;
+	width: 150px;
+	margin: auto;
+	margin-top: 15px;
+}
+
+.configureTime h2{
+	background-color: #438243;
+}
+
+.configureInputs h2{
+	margin-bottom: 3px solid #5a5a5a;
+}
+
+.configureTime input{
+	width: 50px;
+	float: left;
+	text-align: center;
+	height: 20px;
+	border-radius: 10px;
+	background-color: gray;
+}
+
+.configureInputs{
+	width: 100px;
+	margin: auto;
+}
+
+.configureInputs p{
+	font-weight: bold;
+}
+
+.configureInputs input, .configureInputs p {
+	display: inline-block;
+}
+
+.configureInputs div {
+	padding-top: 14px;
+}
