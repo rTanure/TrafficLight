@@ -9,7 +9,7 @@ O objetivo desse projeto foi recriar o sistema de um semáforo utilizando JavaSc
 ## Como baixar
 
 1) Faça o download do aquivo e o descompacte 
-2) Execute o arquivo "semaforo.html"
+2) Execute o arquivo "index.html"
 
 ## Como usar
 
